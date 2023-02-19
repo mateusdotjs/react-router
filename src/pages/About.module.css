@@ -1,7 +1,16 @@
 .about {
-        background:  linear-gradient(to right, #0e1c26, #294861);
+    flex-direction: column;
+    background: linear-gradient(to right, #0e1c26, #294861);
 }
 
 .title {
     color: #ca6547;
+    margin-bottom: 25px;
+}
+
+.linkButton {
+    padding: 1rem;
+    text-decoration: none;
+    border: 1px solid white;
+    color: white;
 }
